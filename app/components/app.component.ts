@@ -2,13 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app',
-  templateUrl: 'app/components/app.component.html',
-  styleUrls: ['app/components/app.component.css']
+  template: (
+    `
+      <div class='inventory-app'>
+        (Products will go here soon)
+      </div>
+    `
+  )
 })
 
-export class AppComponent {
-  pageTitle: string;
-  constructor() {
-    this.pageTitle = 'Angular 2 Starter Project';
-  }
+export class InventoryApp {
+
 }
